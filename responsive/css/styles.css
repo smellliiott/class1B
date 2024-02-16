@@ -1,0 +1,158 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: darkkhaki;
+}
+
+#container {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color:black
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+/* Mobile Styles */
+nav {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: seashell;
+    background-color: hotpink;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: darkkhaki;
+}
+
+header h1 {
+    font-size: 35px;
+
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px; 
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+   display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: hotpink;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    color: mediumpurple;
+}
+
+/* tablet styles */
+
+@media (min-width: 786px) {
+  nav li a {
+    width: 200px;
+  }
+  
+    nav {
+    text-align: center;
+   }
+   
+    nav li {
+        display: inline-block;
+
+    }
+
+    main img {
+        width: 50%;
+    }
+    #lower {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+    .col img {
+        width: 75%;
+    }
+
+
+}
+
+/* desktop styles */
+
+@media (min-width: 1024px) {
+   #container {
+    width: 60%;
+    margin: 20px auto;
+   }
+   
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+}
+
